@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.buttons_container {
+  display: block;
+  position: relative;
+  width: 917px;
+  height: 171px;
+  border: 1px solid #9747ff;
+}
+.button {
+  width: 225px;
+  height: 52px;
+  border-radius: 50px;
+  border: 1px solid red;
+
+  /* color: #fff; */
+
+  /* padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer; */
+}
+
+.button:hover {
+  background-color: #444;
+}
+
+/* .row {
+  display: flex;
+  justify-content: space-between;
+} */
+.button:nth-child(1) {
+  position: absolute;
+  background-color: red;
+  top: 20px;
+  left: 20px;
+}
+.button:nth-child(2) {
+  position: absolute;
+  background-color: red;
+  top: 20px;
+  left: 321px;
+}
+
+.button:nth-child(2):hover {
+  background: #b20000;
+}
+
+.button:nth-child(3) {
+  position: absolute;
+  background: linear-gradient(0deg, #ced5dd, #ced5dd),
+    linear-gradient(0deg, #ffffff, #ffffff);
+
+  /* background-color: red; */
+
+  .button:nth-child(3):disabled {
+    background: #ced5dd;
+  }
+
+  top: 20px;
+  left: 593px;
+}
+.button:nth-child(4) {
+  position: absolute;
+  background-color: white;
+  top: 99px;
+  left: 20px;
+}
+.button:nth-child(5) {
+  position: absolute;
+  background-color: white;
+  top: 99px;
+  left: 321px;
+}
+.button:nth-child(5):hover {
+  border: 1px solid #b20000;
+}
+.button:nth-child(6) {
+  position: absolute;
+  background-color: white;
+  top: 99px;
+  left: 593px;
+}
+.button:nth-child(3):disabled {
+  background-color: white;
+}
+
+.primary {
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  font-family: Tahoma;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  color: white;
+}
+
+.secondary {
+  font-family: Montserrat Alternates;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  font-family: Tahoma;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  color: black;
+}
